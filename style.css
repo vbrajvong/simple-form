@@ -11,3 +11,34 @@ footer {
     font-size: 0.8em;
     color: #666666;
 }
+
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="submit"] {
+    margin-left: 110px;
+}
+
+fieldset {
+    width: 350px;
+    border: 2px ridge #808080;
+    padding: 10px;
+}
